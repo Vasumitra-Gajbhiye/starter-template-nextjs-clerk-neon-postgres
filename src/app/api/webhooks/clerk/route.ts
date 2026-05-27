@@ -56,7 +56,6 @@ export async function POST(req: Request) {
           name: first_name || "",
         },
         create: {
-          id,
           clerkId: id,
           email: primaryEmail,
           name: first_name || "",

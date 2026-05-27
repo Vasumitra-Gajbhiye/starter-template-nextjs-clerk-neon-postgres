@@ -73,7 +73,7 @@ export async function POST(req: Request) {
     try {
       if (id) {
         await prisma.user.delete({
-          where: { id },
+          where: { clerkId: id },
         });
       }
     } catch (error) {

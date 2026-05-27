@@ -23,7 +23,7 @@ A minimal starter for building authenticated apps with **Next.js 15**, **Clerk**
 ```bash
 git clone https://github.com/Vasumitra-Gajbhiye/starter-template-nextjs-clerk-neon-postgres.git
 cd starter-template-nextjs-clerk-neon-postgres
-npm install
+npm install --legacy-peer-dep
 
 ```
 
